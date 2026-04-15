@@ -1,361 +1,758 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html data-page="projects.html" lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Projects | VoidLayer Studios</title>
-<meta content="Explore our portfolio of cutting-edge VR titles and AR experiences." name="description"/>
-<meta content="Projects | VoidLayer Studios" property="og:title"/>
-<meta content="Explore our portfolio of cutting-edge VR titles and AR experiences." property="og:description"/>
-<meta content="website" property="og:type"/>
-<meta content="assets/img/og-image.webp" property="og:image"/>
-<script defer="" src="assets/js/site.js"></script>
-<link href="assets/css/tailwind.css" rel="stylesheet"/>
-<link href="assets/css/chrome.css" rel="stylesheet"/>
-<link href="assets/brand/favicon.svg" rel="icon" type="image/svg+xml"/></head>
-<body class="bg-black text-gray-300 font-sans antialiased selection:bg-blue-600 selection:text-white site-dark">
-<header class="site-header">
-<div class="header-container">
-<a aria-label="VoidLayer Studios home" class="brand-link" href="root.html">
-<svg aria-hidden="true" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 5 9 L 9 5 H 11 V 9 H 5 Z M 19 9 L 15 5 H 13 V 9 H 19 Z" fill="currentColor" opacity="0.5"></path><path d="M 3 11 H 11 V 19 L 3 11 Z M 21 11 H 13 V 19 L 21 11 Z" fill="currentColor"></path></svg>
-<span class="brand-name">VoidLayer Studios</span>
-</a>
-<nav aria-label="Primary navigation" class="desktop-nav">
-<a class="nav-link" href="root.html">Home</a>
-<a class="nav-link" href="about.html">About</a>
-<a class="nav-link" href="projects.html">Projects</a>
-<a class="nav-link" href="news.html">News</a>
-</nav>
-<div class="header-actions">
-<a class="btn-cta" href="#contact">Enter the Experience</a>
-<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation menu" class="burger-btn" type="button">
-<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</button>
-</div>
-</div>
-<div aria-hidden="true" class="mobile-menu" id="mobile-menu">
-<button aria-label="Close navigation menu" class="close-menu-btn" type="button">
-<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</button>
-<nav aria-label="Mobile navigation" class="mobile-nav">
-<a class="nav-link" href="root.html">Home</a>
-<a class="nav-link" href="about.html">About</a>
-<a class="nav-link" href="projects.html">Projects</a>
-<a class="nav-link" href="news.html">News</a>
-<a class="btn-cta mobile-cta" href="#contact">Enter the Experience</a>
-</nav>
-</div>
-</header>
-<main>
-<section class="bg-noise py-24 md:py-32 lg:py-40 border-b border-gray-800" id="hero">
-<div class="relative-z container mx-auto px-6 max-w-5xl text-center">
-<span class="inline-block px-3 py-1 bg-blue-900/50 text-blue-400 text-xs font-bold rounded-sm uppercase tracking-wider mb-6 border border-blue-800/50">Our Portfolio</span>
-<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight glow-text">Digital Horizons</h1>
-<p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-        Step into the worlds we have built. From breathtaking virtual realms to augmented layers that transform physical spaces, discover the titles pushing the boundaries of interactive entertainment.
-      </p>
-</div>
-</section>
-<section class="py-20 md:py-28 bg-gray-950" id="all-projects">
-<div class="container mx-auto px-6 max-w-7xl">
-<div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
-<div class="max-w-2xl">
-<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Featured Creations</h2>
-<p class="text-gray-400">Our flagship titles that define the next generation of immersive gaming.</p>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-<article class="glass-card rounded-sm overflow-hidden group transition-all duration-300">
-<div class="aspect-video overflow-hidden relative">
-<img alt="Cyberpunk VR game environment" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="assets/img/projects_vr_1.webp"/>
-<div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
-<div class="absolute bottom-4 left-4 flex gap-2">
-<span class="px-2 py-1 bg-blue-600 text-white text-xs font-bold rounded-sm uppercase">VR</span>
-<span class="px-2 py-1 bg-black/70 text-gray-300 text-xs font-bold rounded-sm uppercase backdrop-blur-md">Action</span>
-</div>
-</div>
-<div class="p-6 md:p-8">
-<h3 class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Neon Protocol</h3>
-<p class="text-gray-400 mb-6 line-clamp-3">
-              A high-octane cyberpunk shooter that leverages full-body tracking to deliver unparalleled mobility. Hack terminals, dodge projectiles, and outsmart rogue AI in a visually stunning neon dystopia.
-            </p>
-<a class="inline-flex items-center text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="#contact">
-              Request Demo
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-</a>
-</div>
-</article>
-<article class="glass-card rounded-sm overflow-hidden group transition-all duration-300">
-<div class="aspect-video overflow-hidden relative">
-<img alt="Augmented reality puzzle game overlay" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="assets/img/projects_ar_1.webp"/>
-<div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
-<div class="absolute bottom-4 left-4 flex gap-2">
-<span class="px-2 py-1 bg-purple-600 text-white text-xs font-bold rounded-sm uppercase">AR</span>
-<span class="px-2 py-1 bg-black/70 text-gray-300 text-xs font-bold rounded-sm uppercase backdrop-blur-md">Puzzle</span>
-</div>
-</div>
-<div class="p-6 md:p-8">
-<h3 class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Echoes of the Ancients</h3>
-<p class="text-gray-400 mb-6 line-clamp-3">
-              Transform your living room into an archaeological dig site. Uncover hidden artifacts, solve intricate spatial puzzles, and piece together the history of a forgotten civilization through advanced augmented reality overlays.
-            </p>
-<a class="inline-flex items-center text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="#contact">
-              Request Demo
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-</a>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class="py-20 md:py-28 bg-black border-y border-gray-800" id="vr-titles">
-<div class="container mx-auto px-6 max-w-7xl">
-<div class="text-center mb-16">
-<span class="inline-block px-3 py-1 bg-gray-800 text-gray-300 text-xs font-bold rounded-sm uppercase tracking-wider mb-4 border border-gray-700">Fully Immersive</span>
-<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Virtual Reality Titles</h2>
-<p class="text-gray-400 max-w-2xl mx-auto">Lose yourself in entirely new dimensions built from the ground up for modern VR hardware.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="Space combat VR game" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_vr_2.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Zero Gravity Combat</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">Experience the disorienting thrill of weightless tactical battles in deep space stations.</p>
-<div class="flex items-center justify-between mt-auto">
-<span class="text-xs text-gray-500 uppercase tracking-widest">Released</span>
-<a class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors" href="#contact">Learn More →</a>
-</div>
-</div>
-</div>
-<div class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="Stealth action VR game" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_vr_3.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Shadow Infiltrator</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">Use shadows and verticality to outmaneuver security forces in a heavily guarded corporate facility.</p>
-<div class="flex items-center justify-between mt-auto">
-<span class="text-xs text-blue-400 uppercase tracking-widest">Beta Access</span>
-<a class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors" href="#contact">Learn More →</a>
-</div>
-</div>
-</div>
-<div class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="Fantasy crafting VR game" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_vr_4.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Mythic Forge</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">Master the ancient arts of blacksmithing and magic to craft legendary weapons with your own hands.</p>
-<div class="flex items-center justify-between mt-auto">
-<span class="text-xs text-gray-500 uppercase tracking-widest">In Development</span>
-<a class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors" href="#contact">Learn More →</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-20 md:py-28 bg-gray-950" id="ar-experiences">
-<div class="container mx-auto px-6 max-w-7xl">
-<div class="text-center mb-16">
-<span class="inline-block px-3 py-1 bg-purple-900/50 text-purple-400 text-xs font-bold rounded-sm uppercase tracking-wider mb-4 border border-purple-800/50">Mixed Reality</span>
-<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Augmented Reality Experiences</h2>
-<p class="text-gray-400 max-w-2xl mx-auto">Enhance the world around you with interactive digital layers, turning any environment into a playground.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="glass-card rounded-sm overflow-hidden flex flex-col">
-<div class="h-48 overflow-hidden relative border-b border-gray-800/50">
-<img alt="Holographic tabletop strategy game" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_ar_2.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Tabletop Commanders</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">Command miniature armies directly on your living room table. Watch battles unfold across physical obstacles.</p>
-<a class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block" href="#contact">Explore Concept →</a>
-</div>
-</div>
-<div class="glass-card rounded-sm overflow-hidden flex flex-col">
-<div class="h-48 overflow-hidden relative border-b border-gray-800/50">
-<img alt="Ghost hunting AR experience" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_ar_3.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Spectral Hunt</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">Use your device to uncover invisible entities lurking behind your furniture in this suspenseful horror experience.</p>
-<a class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block" href="#contact">Explore Concept →</a>
-</div>
-</div>
-<div class="glass-card rounded-sm overflow-hidden flex flex-col">
-<div class="h-48 overflow-hidden relative border-b border-gray-800/50">
-<img alt="Architectural AR visualization" class="w-full h-full object-cover" loading="lazy" src="assets/img/projects_ar_4.webp"/>
-</div>
-<div class="p-6 flex-grow flex flex-col">
-<h3 class="text-xl font-bold text-white mb-2">Architect's Vision</h3>
-<p class="text-gray-400 text-sm mb-6 flex-grow">A professional utility adapted into an interactive experience. Visualize massive structures scaled perfectly to your real-world surroundings.</p>
-<a class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block" href="#contact">Explore Concept →</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-20 md:py-28 bg-black" id="faq">
-<div class="container mx-auto px-6 max-w-3xl">
-<div class="text-center mb-12">
-<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Project Inquiries</h2>
-<p class="text-gray-400">Common questions about our titles and development process.</p>
-</div>
-<div class="space-y-4" data-accordion-group="">
-<div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
-<button class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left">
-<span class="font-semibold text-white">What platforms do you develop for?</span>
-<svg class="w-5 h-5 text-blue-500 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
-            We primarily target high-end PC VR setups and standalone VR headsets for our immersive titles. Our AR experiences are currently optimized for modern mobile devices and enterprise-grade mixed reality glasses.
-          </div>
-</div>
-<div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
-<button class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left">
-<span class="font-semibold text-white">Can I get early access to upcoming games?</span>
-<svg class="w-5 h-5 text-blue-500 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
-            Yes, we occasionally run closed beta tests for community members. Keep an eye on our news section and join our community channels for announcements regarding beta access registration.
-          </div>
-</div>
-<div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
-<button class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left">
-<span class="font-semibold text-white">Do you offer custom enterprise solutions?</span>
-<svg class="w-5 h-5 text-blue-500 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
-            While our core focus is on entertainment and gaming, our technology stack can be adapted for enterprise training and architectural visualization. Contact our business team to discuss specific requirements.
-          </div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-20 md:py-28 bg-black border-t border-gray-800 bg-noise" id="contact">
-<div class="relative-z container mx-auto px-6 max-w-6xl">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-<div>
-<h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Start a Project</h2>
-<p class="text-gray-400 mb-8 leading-relaxed">
-            Tell us about your title, prototype, or co-development plan.
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Projects | VoidLayer Studios</title>
+    <meta
+      content="Explore our portfolio of cutting-edge VR titles and AR experiences."
+      name="description"
+    />
+    <meta content="Projects | VoidLayer Studios" property="og:title" />
+    <meta
+      content="Explore our portfolio of cutting-edge VR titles and AR experiences."
+      property="og:description"
+    />
+    <meta content="website" property="og:type" />
+    <meta content="assets/img/og-image.webp" property="og:image" />
+    <script defer="" src="assets/js/site.js"></script>
+    <link href="assets/css/tailwind.css" rel="stylesheet" />
+    <link href="assets/css/chrome.css" rel="stylesheet" />
+    <link href="assets/brand/favicon.svg" rel="icon" type="image/svg+xml" />
+  </head>
+  <body
+    class="bg-black text-gray-300 font-sans antialiased selection:bg-blue-600 selection:text-white site-dark"
+  >
+    <header class="site-header">
+      <div class="header-container">
+        <a aria-label="VoidLayer Studios home" class="brand-link" href="index.html">
+          <svg
+            aria-hidden="true"
+            fill="none"
+            viewbox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 5 9 L 9 5 H 11 V 9 H 5 Z M 19 9 L 15 5 H 13 V 9 H 19 Z"
+              fill="currentColor"
+              opacity="0.5"
+            ></path>
+            <path
+              d="M 3 11 H 11 V 19 L 3 11 Z M 21 11 H 13 V 19 L 21 11 Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <span class="brand-name">VoidLayer Studios</span>
+        </a>
+        <nav aria-label="Primary navigation" class="desktop-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="news.html">News</a>
+        </nav>
+        <div class="header-actions">
+          <a class="btn-cta" href="#contact">Enter the Experience</a>
+          <button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+            class="burger-btn"
+            type="button"
+          >
+            <svg aria-hidden="true" viewbox="0 0 24 24">
+              <path
+                d="M3 12h18M3 6h18M3 18h18"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+        <button aria-label="Close navigation menu" class="close-menu-btn" type="button">
+          <svg aria-hidden="true" viewbox="0 0 24 24">
+            <path
+              d="M18 6L6 18M6 6l12 12"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></path>
+          </svg>
+        </button>
+        <nav aria-label="Mobile navigation" class="mobile-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="news.html">News</a>
+          <a class="btn-cta mobile-cta" href="#contact">Enter the Experience</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="bg-noise py-24 md:py-32 lg:py-40 border-b border-gray-800" id="hero">
+        <div class="relative-z container mx-auto px-6 max-w-5xl text-center">
+          <span
+            class="inline-block px-3 py-1 bg-blue-900/50 text-blue-400 text-xs font-bold rounded-sm uppercase tracking-wider mb-6 border border-blue-800/50"
+            >Our Portfolio</span
+          >
+          <h1
+            class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight glow-text"
+          >
+            Digital Horizons
+          </h1>
+          <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+            Step into the worlds we have built. From breathtaking virtual realms to augmented layers
+            that transform physical spaces, discover the titles pushing the boundaries of
+            interactive entertainment.
           </p>
-<div class="space-y-6">
-<div class="flex items-start gap-4">
-<div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
-<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-</div>
-<div>
-<h4 class="text-white font-semibold mb-1">Phone</h4>
-<a class="text-gray-400 hover:text-blue-400 transition-colors" href="tel:+15125550174">+1 512 555 0174</a>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
-<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-</div>
-<div>
-<h4 class="text-white font-semibold mb-1">Email</h4>
-<a class="text-gray-400 hover:text-blue-400 transition-colors" href="mailto:contact@voidlayerstudios.com">contact@voidlayerstudios.com</a>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
-<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-</div>
-<div>
-<h4 class="text-white font-semibold mb-1">Address</h4>
-<a class="text-gray-400 hover:text-blue-400 transition-colors block" href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA" rel="noopener noreferrer" target="_blank">
-                  600 Congress Avenue<br/>
-                  Austin, TX 78701, USA
+        </div>
+      </section>
+      <section class="py-20 md:py-28 bg-gray-950" id="all-projects">
+        <div class="container mx-auto px-6 max-w-7xl">
+          <div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div class="max-w-2xl">
+              <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Featured Creations</h2>
+              <p class="text-gray-400">
+                Our flagship titles that define the next generation of immersive gaming.
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            <article
+              class="glass-card rounded-sm overflow-hidden group transition-all duration-300"
+            >
+              <div class="aspect-video overflow-hidden relative">
+                <img
+                  alt="Cyberpunk VR game environment"
+                  class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
+                  src="assets/img/projects_vr_1.webp"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"
+                ></div>
+                <div class="absolute bottom-4 left-4 flex gap-2">
+                  <span
+                    class="px-2 py-1 bg-blue-600 text-white text-xs font-bold rounded-sm uppercase"
+                    >VR</span
+                  >
+                  <span
+                    class="px-2 py-1 bg-black/70 text-gray-300 text-xs font-bold rounded-sm uppercase backdrop-blur-md"
+                    >Action</span
+                  >
+                </div>
+              </div>
+              <div class="p-6 md:p-8">
+                <h3
+                  class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors"
+                >
+                  Neon Protocol
+                </h3>
+                <p class="text-gray-400 mb-6 line-clamp-3">
+                  A high-octane cyberpunk shooter that leverages full-body tracking to deliver
+                  unparalleled mobility. Hack terminals, dodge projectiles, and outsmart rogue AI in
+                  a visually stunning neon dystopia.
+                </p>
+                <a
+                  class="inline-flex items-center text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                  href="#contact"
+                >
+                  Request Demo
+                  <svg
+                    class="w-5 h-5 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
                 </a>
-</div>
-</div>
-</div>
-</div>
-<div class="contact-panel glass-card p-8 rounded-sm">
-<h3 class="contact-panel__title">Project Request</h3>
-<p class="contact-panel__text">Share your concept and our team will review the fit.</p>
-<form action="thanks.html" aria-label="Project request form" class="contact-form" method="GET">
-<div class="form-grid">
-<div>
-<label class="form-label" for="project-name">Name</label>
-<input class="form-control" id="project-name" name="name" required="" type="text"/>
-</div>
-<div>
-<label class="form-label" for="project-email">Email</label>
-<input class="form-control" id="project-email" name="email" required="" type="email"/>
-</div>
-</div>
-<div>
-<label class="form-label" for="project-company">Company</label>
-<input class="form-control" id="project-company" name="company" type="text"/>
-</div>
-<div>
-<label class="form-label" for="project-message">Project Details</label>
-<textarea class="form-control form-control--textarea" id="project-message" name="message" required="" rows="5"></textarea>
-</div>
-<div class="form-privacy">
-<label class="privacy-label">
-<input name="privacyAccepted" required="" type="checkbox"/>
-<span>I agree to the <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank">Privacy Policy</a>.</span>
-</label>
-</div>
-<button class="form-button" type="submit">Start the Conversation</button>
-</form>
-</div>
-</div>
-</div>
-</section>
-</main>
-<footer class="site-footer">
-<div class="footer-container">
-<div class="footer-col brand-col">
-<a class="footer-logo" href="root.html">
-<span class="brand-name">VoidLayer Studios</span>
-</a>
-<p class="tagline">VR and AR game development with immersive design and clear user experience.</p>
-</div>
-<div class="footer-col">
-<h3 class="footer-heading">Legal</h3>
-<ul class="footer-links">
-<li><a href="privacy-policy.html">Privacy Policy</a></li>
-<li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h3 class="footer-heading">Contact</h3>
-<ul class="footer-contact">
-<li>
-<a href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle cx="12" cy="10" fill="none" r="3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg>
-<span class="contact-text">600 Congress Avenue<br/>Austin, TX 78701, USA</span>
-</a>
-</li>
-<li>
-<a href="tel:+15125550174">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-<span class="contact-text">+1 512 555 0174</span>
-</a>
-</li>
-<li>
-<a href="mailto:contact@voidlayerstudios.com">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><polyline fill="none" points="22,6 12,13 2,6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline></svg>
-<span class="contact-text">contact@voidlayerstudios.com</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="footer-bottom">
-<p>© 2026 VoidLayer Studios. All rights reserved.</p>
-</div>
-</footer>
-<script defer="" src="assets/js/chrome.js"></script>
-</body>
+              </div>
+            </article>
+            <article
+              class="glass-card rounded-sm overflow-hidden group transition-all duration-300"
+            >
+              <div class="aspect-video overflow-hidden relative">
+                <img
+                  alt="Augmented reality puzzle game overlay"
+                  class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
+                  src="assets/img/projects_ar_1.webp"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"
+                ></div>
+                <div class="absolute bottom-4 left-4 flex gap-2">
+                  <span
+                    class="px-2 py-1 bg-purple-600 text-white text-xs font-bold rounded-sm uppercase"
+                    >AR</span
+                  >
+                  <span
+                    class="px-2 py-1 bg-black/70 text-gray-300 text-xs font-bold rounded-sm uppercase backdrop-blur-md"
+                    >Puzzle</span
+                  >
+                </div>
+              </div>
+              <div class="p-6 md:p-8">
+                <h3
+                  class="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors"
+                >
+                  Echoes of the Ancients
+                </h3>
+                <p class="text-gray-400 mb-6 line-clamp-3">
+                  Transform your living room into an archaeological dig site. Uncover hidden
+                  artifacts, solve intricate spatial puzzles, and piece together the history of a
+                  forgotten civilization through advanced augmented reality overlays.
+                </p>
+                <a
+                  class="inline-flex items-center text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                  href="#contact"
+                >
+                  Request Demo
+                  <svg
+                    class="w-5 h-5 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 md:py-28 bg-black border-y border-gray-800" id="vr-titles">
+        <div class="container mx-auto px-6 max-w-7xl">
+          <div class="text-center mb-16">
+            <span
+              class="inline-block px-3 py-1 bg-gray-800 text-gray-300 text-xs font-bold rounded-sm uppercase tracking-wider mb-4 border border-gray-700"
+              >Fully Immersive</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Virtual Reality Titles</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+              Lose yourself in entirely new dimensions built from the ground up for modern VR
+              hardware.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+              class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="Space combat VR game"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_vr_2.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Zero Gravity Combat</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  Experience the disorienting thrill of weightless tactical battles in deep space
+                  stations.
+                </p>
+                <div class="flex items-center justify-between mt-auto">
+                  <span class="text-xs text-gray-500 uppercase tracking-widest">Released</span>
+                  <a
+                    class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors"
+                    href="#contact"
+                    >Learn More →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="Stealth action VR game"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_vr_3.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Shadow Infiltrator</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  Use shadows and verticality to outmaneuver security forces in a heavily guarded
+                  corporate facility.
+                </p>
+                <div class="flex items-center justify-between mt-auto">
+                  <span class="text-xs text-blue-400 uppercase tracking-widest">Beta Access</span>
+                  <a
+                    class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors"
+                    href="#contact"
+                    >Learn More →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-gray-900 border border-gray-800 rounded-sm overflow-hidden hover:border-gray-700 transition-colors flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="Fantasy crafting VR game"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_vr_4.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Mythic Forge</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  Master the ancient arts of blacksmithing and magic to craft legendary weapons with
+                  your own hands.
+                </p>
+                <div class="flex items-center justify-between mt-auto">
+                  <span class="text-xs text-gray-500 uppercase tracking-widest"
+                    >In Development</span
+                  >
+                  <a
+                    class="text-blue-500 hover:text-blue-400 text-sm font-semibold transition-colors"
+                    href="#contact"
+                    >Learn More →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 md:py-28 bg-gray-950" id="ar-experiences">
+        <div class="container mx-auto px-6 max-w-7xl">
+          <div class="text-center mb-16">
+            <span
+              class="inline-block px-3 py-1 bg-purple-900/50 text-purple-400 text-xs font-bold rounded-sm uppercase tracking-wider mb-4 border border-purple-800/50"
+              >Mixed Reality</span
+            >
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+              Augmented Reality Experiences
+            </h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+              Enhance the world around you with interactive digital layers, turning any environment
+              into a playground.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card rounded-sm overflow-hidden flex flex-col">
+              <div class="h-48 overflow-hidden relative border-b border-gray-800/50">
+                <img
+                  alt="Holographic tabletop strategy game"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_ar_2.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Tabletop Commanders</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  Command miniature armies directly on your living room table. Watch battles unfold
+                  across physical obstacles.
+                </p>
+                <a
+                  class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block"
+                  href="#contact"
+                  >Explore Concept →</a
+                >
+              </div>
+            </div>
+            <div class="glass-card rounded-sm overflow-hidden flex flex-col">
+              <div class="h-48 overflow-hidden relative border-b border-gray-800/50">
+                <img
+                  alt="Ghost hunting AR experience"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_ar_3.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Spectral Hunt</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  Use your device to uncover invisible entities lurking behind your furniture in
+                  this suspenseful horror experience.
+                </p>
+                <a
+                  class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block"
+                  href="#contact"
+                  >Explore Concept →</a
+                >
+              </div>
+            </div>
+            <div class="glass-card rounded-sm overflow-hidden flex flex-col">
+              <div class="h-48 overflow-hidden relative border-b border-gray-800/50">
+                <img
+                  alt="Architectural AR visualization"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  src="assets/img/projects_ar_4.webp"
+                />
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-white mb-2">Architect's Vision</h3>
+                <p class="text-gray-400 text-sm mb-6 flex-grow">
+                  A professional utility adapted into an interactive experience. Visualize massive
+                  structures scaled perfectly to your real-world surroundings.
+                </p>
+                <a
+                  class="text-blue-400 hover:text-blue-300 text-sm font-semibold transition-colors mt-auto inline-block"
+                  href="#contact"
+                  >Explore Concept →</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 md:py-28 bg-black" id="faq">
+        <div class="container mx-auto px-6 max-w-3xl">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Project Inquiries</h2>
+            <p class="text-gray-400">Common questions about our titles and development process.</p>
+          </div>
+          <div class="space-y-4" data-accordion-group="">
+            <div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
+              <button
+                class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left"
+              >
+                <span class="font-semibold text-white">What platforms do you develop for?</span>
+                <svg
+                  class="w-5 h-5 text-blue-500 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </button>
+              <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                We primarily target high-end PC VR setups and standalone VR headsets for our
+                immersive titles. Our AR experiences are currently optimized for modern mobile
+                devices and enterprise-grade mixed reality glasses.
+              </div>
+            </div>
+            <div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
+              <button
+                class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left"
+              >
+                <span class="font-semibold text-white"
+                  >Can I get early access to upcoming games?</span
+                >
+                <svg
+                  class="w-5 h-5 text-blue-500 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </button>
+              <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                Yes, we occasionally run closed beta tests for community members. Keep an eye on our
+                news section and join our community channels for announcements regarding beta access
+                registration.
+              </div>
+            </div>
+            <div class="border border-gray-800 rounded-sm overflow-hidden bg-gray-900/50">
+              <button
+                class="w-full px-6 py-4 flex justify-between items-center focus:outline-none hover:bg-gray-800 transition-colors text-left"
+              >
+                <span class="font-semibold text-white"
+                  >Do you offer custom enterprise solutions?</span
+                >
+                <svg
+                  class="w-5 h-5 text-blue-500 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </button>
+              <div class="hidden px-6 pb-4 text-gray-400 text-sm leading-relaxed">
+                While our core focus is on entertainment and gaming, our technology stack can be
+                adapted for enterprise training and architectural visualization. Contact our
+                business team to discuss specific requirements.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 md:py-28 bg-black border-t border-gray-800 bg-noise" id="contact">
+        <div class="relative-z container mx-auto px-6 max-w-6xl">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div>
+              <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Start a Project</h2>
+              <p class="text-gray-400 mb-8 leading-relaxed">
+                Tell us about your title, prototype, or co-development plan.
+              </p>
+              <div class="space-y-6">
+                <div class="flex items-start gap-4">
+                  <div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewbox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-semibold mb-1">Phone</h4>
+                    <a
+                      class="text-gray-400 hover:text-blue-400 transition-colors"
+                      href="tel:+15125550174"
+                      >+1 512 555 0174</a
+                    >
+                  </div>
+                </div>
+                <div class="flex items-start gap-4">
+                  <div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewbox="0 0 24 24"
+                    >
+                      <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-semibold mb-1">Email</h4>
+                    <a
+                      class="text-gray-400 hover:text-blue-400 transition-colors"
+                      href="mailto:contact@voidlayerstudios.com"
+                      >contact@voidlayerstudios.com</a
+                    >
+                  </div>
+                </div>
+                <div class="flex items-start gap-4">
+                  <div class="p-3 bg-gray-900 border border-gray-800 rounded-sm text-blue-500">
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewbox="0 0 24 24"
+                    >
+                      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-semibold mb-1">Address</h4>
+                    <a
+                      class="text-gray-400 hover:text-blue-400 transition-colors block"
+                      href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      600 Congress Avenue<br />
+                      Austin, TX 78701, USA
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-panel glass-card p-8 rounded-sm">
+              <h3 class="contact-panel__title">Project Request</h3>
+              <p class="contact-panel__text">
+                Share your concept and our team will review the fit.
+              </p>
+              <form
+                action="thanks.html"
+                aria-label="Project request form"
+                class="contact-form"
+                method="GET"
+              >
+                <div class="form-grid">
+                  <div>
+                    <label class="form-label" for="project-name">Name</label>
+                    <input
+                      class="form-control"
+                      id="project-name"
+                      name="name"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                  <div>
+                    <label class="form-label" for="project-email">Email</label>
+                    <input
+                      class="form-control"
+                      id="project-email"
+                      name="email"
+                      required=""
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label class="form-label" for="project-company">Company</label>
+                  <input class="form-control" id="project-company" name="company" type="text" />
+                </div>
+                <div>
+                  <label class="form-label" for="project-message">Project Details</label>
+                  <textarea
+                    class="form-control form-control--textarea"
+                    id="project-message"
+                    name="message"
+                    required=""
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="form-privacy">
+                  <label class="privacy-label">
+                    <input name="privacyAccepted" required="" type="checkbox" />
+                    <span
+                      >I agree to the
+                      <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank"
+                        >Privacy Policy</a
+                      >.</span
+                    >
+                  </label>
+                </div>
+                <button class="form-button" type="submit">Start the Conversation</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col brand-col">
+          <a class="footer-logo" href="index.html">
+            <span class="brand-name">VoidLayer Studios</span>
+          </a>
+          <p class="tagline">
+            VR and AR game development with immersive design and clear user experience.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Contact</h3>
+          <ul class="footer-contact">
+            <li>
+              <a
+                href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                  <circle
+                    cx="12"
+                    cy="10"
+                    fill="none"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></circle>
+                </svg>
+                <span class="contact-text">600 Congress Avenue<br />Austin, TX 78701, USA</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+15125550174">
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+                <span class="contact-text">+1 512 555 0174</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contact@voidlayerstudios.com">
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                  <polyline
+                    fill="none"
+                    points="22,6 12,13 2,6"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></polyline>
+                </svg>
+                <span class="contact-text">contact@voidlayerstudios.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VoidLayer Studios. All rights reserved.</p>
+      </div>
+    </footer>
+    <script defer="" src="assets/js/chrome.js"></script>
+  </body>
 </html>

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const currentPath = window.location.pathname.split('/').pop() || 'root.html';
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-link').forEach((link) => {
     const href = link.getAttribute('href');
     if (href === currentPath) {

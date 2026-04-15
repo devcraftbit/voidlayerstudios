@@ -1,293 +1,557 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html class="scroll-smooth" data-page="news.html" lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>News | VoidLayer Studios</title>
-<meta content="Latest news, tech updates, and announcements from VoidLayer Studios." name="description"/>
-<meta content="News | VoidLayer Studios" property="og:title"/>
-<meta content="Latest news, tech updates, and announcements from VoidLayer Studios." property="og:description"/>
-<meta content="website" property="og:type"/>
-<meta content="assets/img/og-image.webp" property="og:image"/>
-<script defer="" src="assets/js/site.js"></script>
-<link href="assets/css/tailwind.css" rel="stylesheet"/>
-<link href="assets/css/chrome.css" rel="stylesheet"/>
-<link href="assets/brand/favicon.svg" rel="icon" type="image/svg+xml"/></head>
-<body class="noise-bg antialiased min-h-screen flex flex-col site-dark">
-<header class="site-header">
-<div class="header-container">
-<a aria-label="VoidLayer Studios home" class="brand-link" href="root.html">
-<svg aria-hidden="true" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 5 9 L 9 5 H 11 V 9 H 5 Z M 19 9 L 15 5 H 13 V 9 H 19 Z" fill="currentColor" opacity="0.5"></path><path d="M 3 11 H 11 V 19 L 3 11 Z M 21 11 H 13 V 19 L 21 11 Z" fill="currentColor"></path></svg>
-<span class="brand-name">VoidLayer Studios</span>
-</a>
-<nav aria-label="Primary navigation" class="desktop-nav">
-<a class="nav-link" href="root.html">Home</a>
-<a class="nav-link" href="about.html">About</a>
-<a class="nav-link" href="projects.html">Projects</a>
-<a class="nav-link" href="news.html">News</a>
-</nav>
-<div class="header-actions">
-<a class="btn-cta" href="root.html#contact">Enter the Experience</a>
-<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation menu" class="burger-btn" type="button">
-<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</button>
-</div>
-</div>
-<div aria-hidden="true" class="mobile-menu" id="mobile-menu">
-<button aria-label="Close navigation menu" class="close-menu-btn" type="button">
-<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</button>
-<nav aria-label="Mobile navigation" class="mobile-nav">
-<a class="nav-link" href="root.html">Home</a>
-<a class="nav-link" href="about.html">About</a>
-<a class="nav-link" href="projects.html">Projects</a>
-<a class="nav-link" href="news.html">News</a>
-<a class="btn-cta mobile-cta" href="root.html#contact">Enter the Experience</a>
-</nav>
-</div>
-</header>
-<main class="flex-grow">
-<!-- Hero Small Section -->
-<section class="relative pt-32 pb-20 border-b border-gray-800 bg-black overflow-hidden" id="hero">
-<div class="absolute inset-0 opacity-30">
-<img alt="Futuristic Interface Background" class="w-full h-full object-cover" loading="lazy" src="assets/img/hero_banner.webp"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
-</div>
-<div class="max-w-7xl mx-auto px-6 relative z-10">
-<div class="max-w-2xl">
-<p class="text-blue-500 font-semibold tracking-widest uppercase mb-4 text-sm">Transmission Log</p>
-<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6 glow-text">Studio Intelligence</h1>
-<p class="text-lg text-gray-300 leading-relaxed">
-                    Stay connected with our latest breakthroughs. From major game releases to the proprietary tech driving our immersive worlds, here is where we document our journey forward.
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>News | VoidLayer Studios</title>
+    <meta
+      content="Latest news, tech updates, and announcements from VoidLayer Studios."
+      name="description"
+    />
+    <meta content="News | VoidLayer Studios" property="og:title" />
+    <meta
+      content="Latest news, tech updates, and announcements from VoidLayer Studios."
+      property="og:description"
+    />
+    <meta content="website" property="og:type" />
+    <meta content="assets/img/og-image.webp" property="og:image" />
+    <script defer="" src="assets/js/site.js"></script>
+    <link href="assets/css/tailwind.css" rel="stylesheet" />
+    <link href="assets/css/chrome.css" rel="stylesheet" />
+    <link href="assets/brand/favicon.svg" rel="icon" type="image/svg+xml" />
+  </head>
+  <body class="noise-bg antialiased min-h-screen flex flex-col site-dark">
+    <header class="site-header">
+      <div class="header-container">
+        <a aria-label="VoidLayer Studios home" class="brand-link" href="index.html">
+          <svg
+            aria-hidden="true"
+            fill="none"
+            viewbox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 5 9 L 9 5 H 11 V 9 H 5 Z M 19 9 L 15 5 H 13 V 9 H 19 Z"
+              fill="currentColor"
+              opacity="0.5"
+            ></path>
+            <path
+              d="M 3 11 H 11 V 19 L 3 11 Z M 21 11 H 13 V 19 L 21 11 Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <span class="brand-name">VoidLayer Studios</span>
+        </a>
+        <nav aria-label="Primary navigation" class="desktop-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="news.html">News</a>
+        </nav>
+        <div class="header-actions">
+          <a class="btn-cta" href="index.html#contact">Enter the Experience</a>
+          <button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+            class="burger-btn"
+            type="button"
+          >
+            <svg aria-hidden="true" viewbox="0 0 24 24">
+              <path
+                d="M3 12h18M3 6h18M3 18h18"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+        <button aria-label="Close navigation menu" class="close-menu-btn" type="button">
+          <svg aria-hidden="true" viewbox="0 0 24 24">
+            <path
+              d="M18 6L6 18M6 6l12 12"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></path>
+          </svg>
+        </button>
+        <nav aria-label="Mobile navigation" class="mobile-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="news.html">News</a>
+          <a class="btn-cta mobile-cta" href="index.html#contact">Enter the Experience</a>
+        </nav>
+      </div>
+    </header>
+    <main class="flex-grow">
+      <!-- Hero Small Section -->
+      <section
+        class="relative pt-32 pb-20 border-b border-gray-800 bg-black overflow-hidden"
+        id="hero"
+      >
+        <div class="absolute inset-0 opacity-30">
+          <img
+            alt="Futuristic Interface Background"
+            class="w-full h-full object-cover"
+            loading="lazy"
+            src="assets/img/hero_banner.webp"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"
+          ></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+          <div class="max-w-2xl">
+            <p class="text-blue-500 font-semibold tracking-widest uppercase mb-4 text-sm">
+              Transmission Log
+            </p>
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6 glow-text">
+              Studio Intelligence
+            </h1>
+            <p class="text-lg text-gray-300 leading-relaxed">
+              Stay connected with our latest breakthroughs. From major game releases to the
+              proprietary tech driving our immersive worlds, here is where we document our journey
+              forward.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Latest News Section -->
+      <section class="py-20 bg-zinc-950" id="latest-news">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex items-center justify-between mb-12">
+            <h2 class="text-3xl font-bold tracking-tight">Latest News</h2>
+            <a
+              class="text-blue-400 hover:text-blue-300 transition-colors font-medium flex items-center gap-2"
+              href="news.html#announcements"
+            >
+              View Archives
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- News Card 1 -->
+            <article
+              class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="VR Interface Design"
+                  class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  loading="lazy"
+                  src="assets/img/news_update_1.webp"
+                />
+                <div
+                  class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider"
+                >
+                  Release
+                </div>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <span class="text-gray-500 text-sm mb-3 block">October 14, 2026</span>
+                <h3 class="text-xl font-semibold mb-3 leading-snug">
+                  VoidLayer Unveils Next-Gen VR Interface Standards
+                </h3>
+                <p class="text-gray-400 mb-6 flex-grow">
+                  Our team has published a comprehensive framework detailing intuitive user
+                  experiences for fully immersive environments, reducing motion fatigue and
+                  enhancing interaction clarity.
                 </p>
-</div>
-</div>
-</section>
-<!-- Latest News Section -->
-<section class="py-20 bg-zinc-950" id="latest-news">
-<div class="max-w-7xl mx-auto px-6">
-<div class="flex items-center justify-between mb-12">
-<h2 class="text-3xl font-bold tracking-tight">Latest News</h2>
-<a class="text-blue-400 hover:text-blue-300 transition-colors font-medium flex items-center gap-2" href="news.html#announcements">
-                    View Archives
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
-<path d="M5 12h14M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- News Card 1 -->
-<article class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="VR Interface Design" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" src="assets/img/news_update_1.webp"/>
-<div class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider">
-                            Release
-                        </div>
-</div>
-<div class="p-6 flex flex-col flex-grow">
-<span class="text-gray-500 text-sm mb-3 block">October 14, 2026</span>
-<h3 class="text-xl font-semibold mb-3 leading-snug">VoidLayer Unveils Next-Gen VR Interface Standards</h3>
-<p class="text-gray-400 mb-6 flex-grow">
-                            Our team has published a comprehensive framework detailing intuitive user experiences for fully immersive environments, reducing motion fatigue and enhancing interaction clarity.
-                        </p>
-<a class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto" href="projects.html">
-                            Read Full Story
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-</a>
-</div>
-</article>
-<!-- News Card 2 -->
-<article class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="Cinematic Game Award" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" src="assets/img/news_update_2.webp"/>
-<div class="absolute top-4 left-4 bg-gray-700 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider">
-                            Award
-                        </div>
-</div>
-<div class="p-6 flex flex-col flex-grow">
-<span class="text-gray-500 text-sm mb-3 block">September 28, 2026</span>
-<h3 class="text-xl font-semibold mb-3 leading-snug">Award-Winning AR Mechanics Recognized Globally</h3>
-<p class="text-gray-400 mb-6 flex-grow">
-                            We are honored to receive the Interactive Visionary Award for our recent augmented reality prototype, setting a new benchmark for physical space integration.
-                        </p>
-<a class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto" href="projects.html">
-                            Read Full Story
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-</a>
-</div>
-</article>
-<!-- News Card 3 -->
-<article class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col">
-<div class="h-48 overflow-hidden relative">
-<img alt="Futuristic Sci-Fi Level" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" src="assets/img/projects_vr.webp"/>
-<div class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider">
-                            Preview
-                        </div>
-</div>
-<div class="p-6 flex flex-col flex-grow">
-<span class="text-gray-500 text-sm mb-3 block">September 10, 2026</span>
-<h3 class="text-xl font-semibold mb-3 leading-snug">First Look: Protocol Zero Gameplay Trailer</h3>
-<p class="text-gray-400 mb-6 flex-grow">
-                            Experience the darkness. The first official gameplay teaser for our upcoming survival horror VR title is now live, showcasing dynamic lighting and physics.
-                        </p>
-<a class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto" href="projects.html">
-                            Watch Trailer
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-</a>
-</div>
-</article>
-</div>
-</div>
-</section>
-<!-- Tech Updates Section -->
-<section class="py-20 bg-black border-y border-gray-800" id="tech-updates">
-<div class="max-w-7xl mx-auto px-6">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-<div class="order-2 lg:order-1">
-<div class="inline-block px-3 py-1 bg-blue-900/30 border border-blue-800 text-blue-400 rounded-sm text-xs font-semibold uppercase tracking-widest mb-6">
-                        Core Engine Development
-                    </div>
-<h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-6">MST Constructor Advancements</h2>
-<p class="text-gray-300 mb-6 leading-relaxed">
-                        At the heart of VoidLayer's immersive capabilities lies our proprietary <strong>MST Constructor</strong> technology. In our latest patch deployment, we have significantly optimized the rendering pipeline for complex holographic structures.
-                    </p>
-<p class="text-gray-300 mb-8 leading-relaxed">
-                        This update ensures seamless integration of physical boundaries into the digital space, drastically reducing latency and allowing developers to build denser, more interactive environments without compromising frame rates.
-                    </p>
-<ul class="space-y-4 mb-8">
-<li class="flex items-start gap-3 text-gray-300">
-<svg class="w-6 h-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
-<polyline points="20 6 9 17 4 12"></polyline>
-</svg>
-<span>Dynamic photon-mapped lighting calculations in real-time.</span>
-</li>
-<li class="flex items-start gap-3 text-gray-300">
-<svg class="w-6 h-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
-<polyline points="20 6 9 17 4 12"></polyline>
-</svg>
-<span>Expanded asset library compatibility for AR deployment.</span>
-</li>
-<li class="flex items-start gap-3 text-gray-300">
-<svg class="w-6 h-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
-<polyline points="20 6 9 17 4 12"></polyline>
-</svg>
-<span>Enhanced spatial tracking stabilization.</span>
-</li>
-</ul>
-<a class="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-sm transition-colors" href="projects.html">
-                        See It In Action
-                    </a>
-</div>
-<div class="order-1 lg:order-2">
-<div class="relative p-1 bg-gradient-to-br from-blue-600/50 to-transparent rounded-sm">
-<img alt="MST Constructor Visualization" class="w-full h-auto rounded-sm object-cover" loading="lazy" src="assets/img/tech_abstract.webp"/>
-<div class="absolute inset-0 bg-blue-500 mix-blend-overlay opacity-20 rounded-sm"></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Announcements Section -->
-<section class="py-20 bg-zinc-950" id="announcements">
-<div class="max-w-4xl mx-auto px-6">
-<div class="text-center mb-16">
-<h2 class="text-3xl font-bold tracking-tight mb-4">Studio Announcements</h2>
-<p class="text-gray-400">Key milestones and structural updates from the team at VoidLayer Studios.</p>
-</div>
-<div class="space-y-6">
-<!-- Announcement 1 -->
-<div class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors">
-<div>
-<div class="text-sm text-gray-500 mb-1">August 02, 2026</div>
-<h3 class="text-xl font-semibold mb-2">Closed Beta Registration Opening</h3>
-<p class="text-gray-400 text-sm">
-                            We are seeking dedicated players to test network stability and multiplayer interaction logic in our upcoming VR sandbox title. Limited spots available.
-                        </p>
-</div>
-<div class="shrink-0">
-<a class="px-6 py-2 border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-sm font-medium transition-colors inline-block" href="root.html#contact">
-                            Apply Now
-                        </a>
-</div>
-</div>
-<!-- Announcement 2 -->
-<div class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors">
-<div>
-<div class="text-sm text-gray-500 mb-1">July 15, 2026</div>
-<h3 class="text-xl font-semibold mb-2">Expanding the Concept Art Division</h3>
-<p class="text-gray-400 text-sm">
-                            To keep up with our growing portfolio of worlds, we are expanding our visual design team. We welcome three new senior concept artists to the studio.
-                        </p>
-</div>
-<div class="shrink-0">
-<a class="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white rounded-sm font-medium transition-colors inline-block" href="about.html">
-                            Meet the Crew
-                        </a>
-</div>
-</div>
-<!-- Announcement 3 -->
-<div class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors">
-<div>
-<div class="text-sm text-gray-500 mb-1">June 04, 2026</div>
-<h3 class="text-xl font-semibold mb-2">Infrastructure Migration Complete</h3>
-<p class="text-gray-400 text-sm">
-                            Our backend services have successfully transitioned to a decentralized cloud structure, guaranteeing 99.9% uptime for all persistent multiplayer hubs.
-                        </p>
-</div>
-<div class="shrink-0">
-<a class="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white rounded-sm font-medium transition-colors inline-block" href="about.html">
-                            Read Devlog
-                        </a>
-</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-<footer class="site-footer">
-<div class="footer-container">
-<div class="footer-col brand-col">
-<a class="footer-logo" href="root.html">
-<span class="brand-name">VoidLayer Studios</span>
-</a>
-<p class="tagline">VR and AR game development with immersive design and clear user experience.</p>
-</div>
-<div class="footer-col">
-<h3 class="footer-heading">Legal</h3>
-<ul class="footer-links">
-<li><a href="privacy-policy.html">Privacy Policy</a></li>
-<li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h3 class="footer-heading">Contact</h3>
-<ul class="footer-contact">
-<li>
-<a href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle cx="12" cy="10" fill="none" r="3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg>
-<span class="contact-text">600 Congress Avenue<br/>Austin, TX 78701, USA</span>
-</a>
-</li>
-<li>
-<a href="tel:+15125550174">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-<span class="contact-text">+1 512 555 0174</span>
-</a>
-</li>
-<li>
-<a href="mailto:contact@voidlayerstudios.com">
-<svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><polyline fill="none" points="22,6 12,13 2,6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline></svg>
-<span class="contact-text">contact@voidlayerstudios.com</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="footer-bottom">
-<p>© 2026 VoidLayer Studios. All rights reserved.</p>
-</div>
-</footer>
-<script defer="" src="assets/js/chrome.js"></script>
-</body>
+                <a
+                  class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto"
+                  href="projects.html"
+                >
+                  Read Full Story
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+            <!-- News Card 2 -->
+            <article
+              class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="Cinematic Game Award"
+                  class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  loading="lazy"
+                  src="assets/img/news_update_2.webp"
+                />
+                <div
+                  class="absolute top-4 left-4 bg-gray-700 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider"
+                >
+                  Award
+                </div>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <span class="text-gray-500 text-sm mb-3 block">September 28, 2026</span>
+                <h3 class="text-xl font-semibold mb-3 leading-snug">
+                  Award-Winning AR Mechanics Recognized Globally
+                </h3>
+                <p class="text-gray-400 mb-6 flex-grow">
+                  We are honored to receive the Interactive Visionary Award for our recent augmented
+                  reality prototype, setting a new benchmark for physical space integration.
+                </p>
+                <a
+                  class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto"
+                  href="projects.html"
+                >
+                  Read Full Story
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+            <!-- News Card 3 -->
+            <article
+              class="bg-black border border-gray-800 rounded-sm overflow-hidden glow-hover transition-all duration-300 flex flex-col"
+            >
+              <div class="h-48 overflow-hidden relative">
+                <img
+                  alt="Futuristic Sci-Fi Level"
+                  class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  loading="lazy"
+                  src="assets/img/projects_vr.webp"
+                />
+                <div
+                  class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider"
+                >
+                  Preview
+                </div>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <span class="text-gray-500 text-sm mb-3 block">September 10, 2026</span>
+                <h3 class="text-xl font-semibold mb-3 leading-snug">
+                  First Look: Protocol Zero Gameplay Trailer
+                </h3>
+                <p class="text-gray-400 mb-6 flex-grow">
+                  Experience the darkness. The first official gameplay teaser for our upcoming
+                  survival horror VR title is now live, showcasing dynamic lighting and physics.
+                </p>
+                <a
+                  class="text-blue-400 font-medium hover:text-blue-300 transition-colors inline-flex items-center gap-1 mt-auto"
+                  href="projects.html"
+                >
+                  Watch Trailer
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Tech Updates Section -->
+      <section class="py-20 bg-black border-y border-gray-800" id="tech-updates">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1">
+              <div
+                class="inline-block px-3 py-1 bg-blue-900/30 border border-blue-800 text-blue-400 rounded-sm text-xs font-semibold uppercase tracking-widest mb-6"
+              >
+                Core Engine Development
+              </div>
+              <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+                MST Constructor Advancements
+              </h2>
+              <p class="text-gray-300 mb-6 leading-relaxed">
+                At the heart of VoidLayer's immersive capabilities lies our proprietary
+                <strong>MST Constructor</strong> technology. In our latest patch deployment, we have
+                significantly optimized the rendering pipeline for complex holographic structures.
+              </p>
+              <p class="text-gray-300 mb-8 leading-relaxed">
+                This update ensures seamless integration of physical boundaries into the digital
+                space, drastically reducing latency and allowing developers to build denser, more
+                interactive environments without compromising frame rates.
+              </p>
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-start gap-3 text-gray-300">
+                  <svg
+                    class="w-6 h-6 text-blue-500 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Dynamic photon-mapped lighting calculations in real-time.</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-300">
+                  <svg
+                    class="w-6 h-6 text-blue-500 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Expanded asset library compatibility for AR deployment.</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-300">
+                  <svg
+                    class="w-6 h-6 text-blue-500 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewbox="0 0 24 24"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Enhanced spatial tracking stabilization.</span>
+                </li>
+              </ul>
+              <a
+                class="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-sm transition-colors"
+                href="projects.html"
+              >
+                See It In Action
+              </a>
+            </div>
+            <div class="order-1 lg:order-2">
+              <div
+                class="relative p-1 bg-gradient-to-br from-blue-600/50 to-transparent rounded-sm"
+              >
+                <img
+                  alt="MST Constructor Visualization"
+                  class="w-full h-auto rounded-sm object-cover"
+                  loading="lazy"
+                  src="assets/img/tech_abstract.webp"
+                />
+                <div
+                  class="absolute inset-0 bg-blue-500 mix-blend-overlay opacity-20 rounded-sm"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Announcements Section -->
+      <section class="py-20 bg-zinc-950" id="announcements">
+        <div class="max-w-4xl mx-auto px-6">
+          <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Studio Announcements</h2>
+            <p class="text-gray-400">
+              Key milestones and structural updates from the team at VoidLayer Studios.
+            </p>
+          </div>
+          <div class="space-y-6">
+            <!-- Announcement 1 -->
+            <div
+              class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors"
+            >
+              <div>
+                <div class="text-sm text-gray-500 mb-1">August 02, 2026</div>
+                <h3 class="text-xl font-semibold mb-2">Closed Beta Registration Opening</h3>
+                <p class="text-gray-400 text-sm">
+                  We are seeking dedicated players to test network stability and multiplayer
+                  interaction logic in our upcoming VR sandbox title. Limited spots available.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  class="px-6 py-2 border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-sm font-medium transition-colors inline-block"
+                  href="index.html#contact"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+            <!-- Announcement 2 -->
+            <div
+              class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors"
+            >
+              <div>
+                <div class="text-sm text-gray-500 mb-1">July 15, 2026</div>
+                <h3 class="text-xl font-semibold mb-2">Expanding the Concept Art Division</h3>
+                <p class="text-gray-400 text-sm">
+                  To keep up with our growing portfolio of worlds, we are expanding our visual
+                  design team. We welcome three new senior concept artists to the studio.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  class="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white rounded-sm font-medium transition-colors inline-block"
+                  href="about.html"
+                >
+                  Meet the Crew
+                </a>
+              </div>
+            </div>
+            <!-- Announcement 3 -->
+            <div
+              class="bg-black border border-gray-800 p-6 rounded-sm badge-accent flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-gray-900 transition-colors"
+            >
+              <div>
+                <div class="text-sm text-gray-500 mb-1">June 04, 2026</div>
+                <h3 class="text-xl font-semibold mb-2">Infrastructure Migration Complete</h3>
+                <p class="text-gray-400 text-sm">
+                  Our backend services have successfully transitioned to a decentralized cloud
+                  structure, guaranteeing 99.9% uptime for all persistent multiplayer hubs.
+                </p>
+              </div>
+              <div class="shrink-0">
+                <a
+                  class="px-6 py-2 border border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white rounded-sm font-medium transition-colors inline-block"
+                  href="about.html"
+                >
+                  Read Devlog
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col brand-col">
+          <a class="footer-logo" href="index.html">
+            <span class="brand-name">VoidLayer Studios</span>
+          </a>
+          <p class="tagline">
+            VR and AR game development with immersive design and clear user experience.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Contact</h3>
+          <ul class="footer-contact">
+            <li>
+              <a
+                href="https://www.google.com/maps/place/600+Congress+Ave,+Austin,+TX+78701,+USA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                  <circle
+                    cx="12"
+                    cy="10"
+                    fill="none"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></circle>
+                </svg>
+                <span class="contact-text">600 Congress Avenue<br />Austin, TX 78701, USA</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+15125550174">
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+                <span class="contact-text">+1 512 555 0174</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contact@voidlayerstudios.com">
+                <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                  <polyline
+                    fill="none"
+                    points="22,6 12,13 2,6"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></polyline>
+                </svg>
+                <span class="contact-text">contact@voidlayerstudios.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VoidLayer Studios. All rights reserved.</p>
+      </div>
+    </footer>
+    <script defer="" src="assets/js/chrome.js"></script>
+  </body>
 </html>
