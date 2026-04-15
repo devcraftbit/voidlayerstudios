@@ -1,0 +1,31 @@
+/* === GLOBAL BASE STYLES (FORCED) === */
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+
+      main {
+        max-width: 1600px;
+        margin-inline: auto;
+        width: 100%;
+      }
+
+      body {
+        overflow-x: hidden;
+      }
+
+      section {
+        width: 100%;
+      }
+
+      /* --- SVG icons (local sprite) --- */
+      .icon {
+        width: 1.25rem;
+        height: 1.25rem;
+        display: inline-block;
+        vertical-align: middle;
+        flex: 0 0 auto;
+      }
